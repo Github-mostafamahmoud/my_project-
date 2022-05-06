@@ -1,6 +1,8 @@
-# Test
-# include "tm4c123gh6pm.h"
-# include <stdint.h>
+# Blink
+
+
+#include "tm4c123gh6pm.h"
+#include <stdint.h>
  
 
 void SystemInit(void){
