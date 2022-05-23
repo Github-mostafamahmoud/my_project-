@@ -12,7 +12,7 @@ start_popcorn:									case 'A':
 																	}while(sw2_input () == 1 | sw3_input () == 0);
 			 
 																GPIOF->DATA |=0x0E ;
-																count_down(0,1,0,0);
+																count_down(0,0,5,9);
 																GPIOF->DATA &=~0x0E ;
 																Blink_Buzzer();
 														break;
