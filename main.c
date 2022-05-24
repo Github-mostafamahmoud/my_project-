@@ -49,7 +49,7 @@ GPIOA->DIR &= ~0x08;
 GPIOA->DEN |= 0x0C;
 GPIO_PORTF_PUR_R |= 0X08 ;
 	
-	
+	while(1){
 	start:       LCD_command(1);    //clear the lcd.
                LCD_command(0x80); /* lcd cursor location */
 	
@@ -193,6 +193,7 @@ enter_cooking_time:																	case'D':
 
 }
 
+}
 }
 }
 
